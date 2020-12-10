@@ -1,0 +1,120 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/login/login_phone",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-left",
+					"animationDuration": 200
+				}
+			}
+		},
+		{
+			"path": "pages/login/login_code",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "pop-in",
+					"animationDuration": 200
+				}
+			}
+		},
+		{
+			"path": "pages/userCenter/user_center",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "pop-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/shake/shake",
+			"style": {
+				"navigationBarTitleText": "抖车"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/clause/clause",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/userCenter/user_setting",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "pop-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/userCenter/user_like",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-right",
+					"animationDuration": 300
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/server/server",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "抖",
+			"iconPath": "static/img/personCenter/shake.png",
+			"selectedIconPath": "static/img/personCenter/shake1.png"
+		}, {
+			"pagePath": "pages/chat/chat",
+			"text": "聊",
+			"iconPath": "static/img/personCenter/msg.png",
+			"selectedIconPath": "static/img/personCenter/msg1.png"
+		}, {
+			"pagePath": "pages/server/server",
+			"text": "服",
+			"iconPath": "static/img/personCenter/shop.png",
+			"selectedIconPath": "static/img/personCenter/shop1.png"
+		}, {
+			"pagePath": "pages/userCenter/user_center",
+			"text": "我",
+			"iconPath": "static/img/personCenter/user.png",
+			"selectedIconPath": "static/img/personCenter/user1.png"
+		}]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "抖车e族",
+		"backgroundColor": "#000000"
+	}
+}
