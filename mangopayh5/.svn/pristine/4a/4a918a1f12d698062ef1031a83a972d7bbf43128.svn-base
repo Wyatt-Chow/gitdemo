@@ -1,0 +1,13 @@
+.el-date-editor .el-range-separator { width:12%;}
+.el-select-dropdown__list{padding: 6px 0 18px 0px;}
+.el-input {font-size: 16px;}
+.el-form-item__label{ font-size: 16px;}
+.el-tabs__item{ font-size: 17px;}
+// .outgoing-fileupload-row{ padding-left: 0px; padding-bottom: 0px;}
+// .personnelInfo-title { margin-top: 0px;}
+// .personnelInfoBasice-main{ border: none;}
+
+// .rowStyle{bottom: 0px;background-color: white;margin:10px auto;width: 60%;border-radius: 3px;}
+// .el-button{ padding:8px 20px;}
+
+// .gradeStatic-search-content .search-span{ padding-top: 0px;}

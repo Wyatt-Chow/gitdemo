@@ -1,0 +1,67 @@
+// .el-pagination {
+//     margin-top: 10px;
+//     white-space: nowrap;
+//     color: #303133;
+//     font-weight: 700;
+//     float: right;
+//     padding-top: 10px;
+// }
+
+
+// .el-pagination .el-select .el-input .el-input__inner:hover {
+//     padding-right: 25px;
+//     border-radius: 3px;
+//     border-color: #ffa7a7;
+// }
+// .el-pagination .el-select .el-input .el-input__inner:focus {
+//     padding-right: 25px;
+//     border-radius: 3px;
+//     border-color: #ffa7a7;
+// }
+
+// 每页显示的下拉选择框样式
+// .el-select-dropdown__item.selected {
+//     color: #fd6f6f;
+//     font-weight: 700;
+// }
+
+// .el-select-dropdown__item:hover {
+//     color: #fd6f6f;
+//     font-weight: 700;
+// }
+// .el-select-dropdown__item:focus {
+//     color: #fd6f6f;
+//     font-weight: 700;
+// }
+
+
+// .el-pager li.active {
+//     color: #fd6f6f;
+//     cursor: default;
+// }
+// .el-pager li:hover {
+//     color: #fd6f6f;
+//     cursor: default;
+// }
+// .el-pager li:focus {
+//     color: #fd6f6f;
+//     cursor: default;
+// }
+
+
+// .el-pagination__editor.el-input .el-input__inner:hover {
+//     border-color: #ffa7a7;
+// }
+// .el-pagination__editor.el-input .el-input__inner:focus {
+//     border-color: #ffa7a7;
+// }
+
+
+
+.el-header{ padding: 0px 0px;}
+
+
+.el-badge__content.is-fixed {top:20px; right:4px;font-weight: normal; border:none;}
+.el-badge__content{ width:18px;border-radius: 50%;-moz-border-radius: 50%; -webkit-border-radius: 50%;  padding:0px; }
+
+// .divFixed{top: 88px;z-index: 9999;}

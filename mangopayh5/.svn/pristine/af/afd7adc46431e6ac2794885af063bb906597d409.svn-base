@@ -1,0 +1,11 @@
+
+
+.el-submenu__title { font-size: 16px; }
+.el-menu-item:focus, .el-menu-item:hover{ background:#ffeded !important; }
+.el-submenu__title:hover {	background-color: #ffeded !important;}
+.el-menu{ border-right: none;}
+.el-menu-item { font-size: 15.5px; padding-left: 10px;}
+.el-submenu { font-size: 16px;}
+.el-menu-item.is-active{background-color: #ffeded;color: #fe5252 !important;}
+.el-submenu .el-submenu__title:active {color: #fe5252 !important;}
+.el-submenu ,.el-menu-item {border-bottom: 1px solid;border-bottom-color: #ffdfdf !important;}

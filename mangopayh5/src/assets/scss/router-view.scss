@@ -1,0 +1,117 @@
+/**
+* router-view 部分的公共样式：
+*/
+/**
+* 头部按钮搜索样式
+*/
+.header-content {
+    padding-right: 0px;
+    .title-1 { height:60px; border-bottom: 1px solid #ebebeb; line-height: 60px;position: relative}
+    .title-1 h3{ color: #f55050; font-size: 18px; border-bottom: 2px solid #f55050; position: absolute; font-weight: 549; top: -2px;}
+    .right_btn {
+        float: right;
+        margin-left:200px;
+    
+    }
+    .btn_x {
+        width: 6.33333%;
+    }
+    .b {
+        display: inline-block;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        
+    }
+    .b span{ font-size: 16px;}
+    .btn_left {
+        float: left;
+    }
+    
+    .btn_search{ margin-right:12px; margin-left: 12px;}
+    .btn_s{display: inline-block;
+        white-space: nowrap;
+        cursor: pointer;
+        border: 1px solid #d1d1d1;
+        background: #fff;
+        -webkit-appearance: none;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: 0;
+        -webkit-transition: .1s;
+        transition: .1s;
+        line-height: 35px;
+        padding-left: 10px;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-top: 10px;
+        color: #7c7c7c;
+    }
+
+    .el-input__inner{
+        border: 1px solid #d1d1d1; 
+        height: 35px; 
+        line-height: 35px;
+        padding: 0 10px;
+    }
+    .el-input__inner:focus {
+            border-color: #ffa7a7
+    } 
+    .el-date-editor--datetimerange:focus {
+       border-color: #ffa7a7
+    }
+   
+    .el-button{ padding: 0px 16px; font-size: 16px;height: 35px; }
+    
+}
+
+
+/**
+* 搜索条件表单样式
+*/
+.search-content {
+    .search-row {
+        margin-bottom: 10px;
+    }
+    margin-top: 20px;
+    margin-left: 60px;
+    .search-span {
+        text-align: right;
+        padding-top: 8px;
+    }
+    .el-input__inner{
+        border: 1px solid #d1d1d1; 
+        height: 35px; 
+        line-height: 35px;
+        padding: 0 10px;
+    }
+    .el-input__inner:focus {
+            border-color: #ffa7a7
+    } 
+    
+    .el-button{ padding: 0px 16px; font-size: 16px;height: 35px; }
+  
+    .el-range-editor.is-active, .el-range-editor.is-active:hover {
+        border: 1px solid #ffa7a7;
+    }
+    
+}
+   @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+    .header-content .btn_search {
+        margin-top:12px;
+    }
+    .el-badge__content.is-fixed {
+        top: 22px;
+        right: 4px;
+        font-weight: normal;
+        border: none;
+    }
+   }
+/**
+* 列表表格样式
+*/
+.table-main {    
+      
+}

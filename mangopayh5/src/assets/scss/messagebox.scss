@@ -1,0 +1,128 @@
+/**消息框样式
+* author: sunersheng
+* date: 2018-09-19 :15:02:09
+*/
+.el-message-box {
+    min-width: 400px !important;
+    .el-message-box__header{
+        position: relative;
+        padding: 18px 20px !important;
+        background: #ffe3e3 !important;
+        //border: none !important;
+        .el-message-box__title {
+            color: #f56c6c;
+
+        }
+        .el-message-box__headerbtn {
+            i.el-message-box__close {
+                color: #f56c6c;
+            }
+        }
+    }        
+
+    
+    .el-message-box__content {
+        text-align: left;
+        font-size: 16px;
+        padding: 25px 35px !important;
+        .el-message-box__content-inner {
+            height: 62px;
+        }
+
+        .el-alert {
+            padding: 6px 15px !important;
+            .el-alert__content {
+                padding: 0px;
+                word-break: break-all;
+            }
+        }
+    }         
+    
+   
+    .el-message-box__btns {
+        padding: 12px 20px !important;
+        text-align: center;
+
+        .el-button {
+            width: 80px;
+            &.el-button--primary {
+                color: #f56c6c;
+                background: #fef0f0;
+                border-color: #fbc4c4;
+                
+                &:focus,
+                &:active,
+                &:hover {
+                    border: 1px solid #ffa7a7;
+                    color: #fff;
+                    background: #f56c6c;
+                }
+            }
+            &.el-button--default:not(.el-button--primary) {
+                background: #fff;
+                color: #f56c6c;
+                border-color: #fbc4c4;
+            }                    
+        }        
+    }
+}
+
+.el-message-box {
+    min-width: 420px;
+    width: auto;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    .el-message-box__header {
+        padding: 22px 20px;
+        //border-bottom: 1px solid #dde3ec;
+        .el-message-box__title {
+            font-size: 16px;
+        }
+        .el-icon-close {
+            transition: all.3s;
+            &:hover {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .el-message-box__content {
+        padding: 25px 30px;
+    }
+    .el-message-box__btns{
+        //border-top: 1px solid #dde3ec;
+        padding: 14px 20px;
+    }
+    .el-button--default:not(.el-button--primary) {
+        // float: right;
+        // margin-left: 10px;
+        background: $--color-white;
+        color: $--basic-font-color;
+        border-color: $--button-info-border;
+        &:hover {
+            background: $--color-info;
+        }
+    }
+    
+}
+
+// message
+.el-message {
+    top: 60px;
+    &.el-message--warning {
+        background: $--message-warning-color;
+        &.el-message__content {
+            color: $--color-warning;
+        }
+    }
+    .el-icon-warning {
+        color: $--color-warning;
+    }
+    .el-icon-success {
+        color: $--color-success;
+    }
+    &.el-message--success {
+        &.el-message__content {
+            color: $--color-success;
+        }
+    }
+}

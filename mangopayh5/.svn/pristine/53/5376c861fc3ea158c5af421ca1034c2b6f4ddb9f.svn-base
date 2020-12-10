@@ -1,0 +1,31 @@
+@import './variables.scss';
+// 基础颜色
+$--color-primary: #ad0d0d;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; 
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; 
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; 
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; 
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; 
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; 
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; 
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger: #f40000;
+$--color-info: #F6F8FA;
+
+$--color-text-primary: #0d7ef2 !default;
+$--color-text-regular: #333 !default;
+$--color-text-secondary: #999 !default;
+$--color-text-placeholder: #9b9ea0 !default;
+
+$--color-success-light: mix($--color-white, $--color-success, 80%) !default;
+$--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
+$--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;
+$--color-info-light: mix($--color-white, $--color-info, 80%) !default;
+
+$--color-success-lighter: mix($--color-white, $--color-success, 90%) !default;
+$--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
+$--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
+$--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;

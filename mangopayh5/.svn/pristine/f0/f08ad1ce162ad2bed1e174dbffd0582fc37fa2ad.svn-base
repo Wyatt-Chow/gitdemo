@@ -1,0 +1,57 @@
+.el-table {
+    thead { color: #333; }
+    th {
+        height: 60px; 
+        line-height: 60px; 
+        color: #333; 
+        padding: 0px;
+        background: #fff !important;
+        &.is-leaf {
+            border-bottom: 2px solid #dddddd;
+        }
+    }
+    th>.cell { text-align:center; font-size: 16px;color:#383838; }
+    td {
+        border-bottom: none;
+
+    }
+
+    // .el-checkbox__input.is-checked+.el-checkbox__label {
+    //     color: #555555;
+    // }
+    // .el-checkbox__input.is-checked .el-checkbox__inner, 
+    // .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    //     background-color: #fd6f6f;
+    //     border-color: #fd6f6f;
+    // } 
+    .cell{ 
+        text-align:center; 
+        line-height: 34px;
+        font-size: 16px;
+    }
+    // .el-table--enable-row-hover .el-table__body tr:hover>td{background-color: #fef1f1;}
+    // .el-table--enable-row-focus .el-table__body tr:focus>td{background-color: #fef1f1;}    
+    // .el-table--striped .el-table__body tr.el-table__row--striped td{background: #F8f8f8;}
+
+    //margin-top: 10px;
+    //margin: 10px;
+    .el-checkbox__input.is-checked  .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+      background-color: #ff6464;
+      border-color: #ff6464;
+    }
+    .el-checkbox__inner:hover,.el-checkbox__input.is-focus .el-checkbox__inner  {
+      border-color: #ff6464;
+    }
+    .el-table--enable-row-hover .el-table__body tr:hover>td{background-color: #fef1f1;}
+    .el-table--enable-row-focus .el-table__body tr:focus>td{background-color: #fef1f1;}
+    .el-table th.is-leaf {border-bottom: 2px solid #dddddd;}
+    .el-table--striped .el-table__body tr.el-table__row--striped td{background: #F8f8f8;}
+    .el-table td {border-bottom: none; }
+    .el-table th { height: 60px; line-height: 60px; color: #333; padding: 0px;}
+    .el-table th>.cell { text-align:center; font-size: 16px;color:#383838; }
+    .el-table .cell{ text-align:center; line-height: 34px;}
+    .el-table thead{ color: #333; }
+    .el-button--mini, .el-button--small {font-size:16px;}
+
+   
+}

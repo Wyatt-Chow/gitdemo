@@ -1,0 +1,58 @@
+// Transition
+$--fade-linear-transition: opacity 0.3 linear !default;
+// 基础颜色
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+// 网页最小宽度
+$--basic-body-min-width: 1360px !default;
+// 基础字体
+$--basic-font-size: 14px;
+$--basic-font-small-size: 12px;
+$--basic-font-color: #333;
+$--basic-font-family: 'PingFangSC', 'helvetica neue', 'hiragino sans gb', 'arial', 'microsoft yahei ui', 'microsoft yahei', 'simsun', 'sans-serif' !important;
+
+$--basic-header-height: 50px;
+// 侧边菜单
+$--basic-sidebar-width: 200px;
+$--basic-sidebar-width-min: 50px;
+$--basic-submenu-width: 150px;
+// 表单输入框
+$--basic-input-height: 40px;
+$--basic-input-height--medium: 38px;
+$--basic-input-height--small: 32px;
+$--basic-input-height--mini: 28px;
+$--basic-input-border-color: #c3c5c6;
+$--form-label-color: #666666 !default;
+$--input-placeholder-color: #9b9ea0;
+$--input-placeholder-font-size: 14px;
+$--input-medium-font-size: 14px;
+$--input-small-font-size: 12px;
+// button
+$--button-active-shade-percent: 20%;
+// 表格
+$--table-border: #dddddd;
+$--table-head-bg-color: #eceff8;
+$--table-head-color: #525d6a;
+$--table-head-font-size: $--basic-font-small-size;
+$--table-body-font-size: $--basic-font-small-size;
+$--table-row-bg-current: #f5f7fb;
+
+/* Box-shadow
+-------------------------- */
+$--box-shadow-base: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04) !default;
+$--box-shadow-dark: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.12) !default;
+$--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+
+/* Dialog
+-------------------------- */
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+$--dialog-title-font-size: 16px !default;
+$--dialog-font-size: 14px !default;
+$--dialog-body-padding: 30px 35px !default;
+
+// 下拉菜单，下拉列表鼠标经过背景色
+$--color-dropdown-hover: #f9fafd;
+
+// 阴影
+$--box-shadow: 0px 0px 15px 0px rgba(66, 103, 178, 0.15);
+$--box-border: 1px solid #c3c5c6;
