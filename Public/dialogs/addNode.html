@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>添加短信</title>
+    <link rel="stylesheet" href="../Public/organ2/css/common.css" />
+    <link rel="stylesheet" href="../Public/js/jquery.datetimepicker.css" />
+    <script type="text/javascript" src="../Public/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="../Public/js/sha1.js"></script>
+    <script type="text/javascript" src="../Public/js/icheck.min.js"></script>
+    <script type="text/javascript" src="../Public/js/layer/layer.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.datetimepicker.js"></script>
+    <script type="text/javascript" src="../Public/js/jQselect.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/common.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/index.js"></script>
+
+    <script language="javascript">$(function(){parent.$('iframe,.layui-layer-iframe').css('height',$('.admin_box').height()+25+'px');})</script>
+</head>
+<body style="background: #fff">
+<div class="admin_box" style="padding-top:10px;">
+    <div class="table2">
+        <form onSubmit="return ttgValidata(this)" action="/admin/addsave" method="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                    <th class="r" nowrap>选择标签</th>
+                    <td class="l"><label><input type="checkbox" name="roles[]" id="roles" value="4">高存款用户</label>
+                        <label><input type="checkbox" name="roles[]" id="roles" value="5">高收单用户</label>
+                        <label><input type="checkbox" name="roles[]" id="roles" value="6">大交易量用户</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="r" nowrap>发送时间：</th><td class="l checkbox">
+                    <label><input type="radio" name="status" id="status" value="1" checked>即时发送</label>
+                    <label><input type="radio" name="status" id="status" value="0">定时发送</label>
+                    <input type="text" title="发送时间" name="bl_sdate" id="bl_sdate" class="txt w2 datetimepicker required date" placeholder="发送时间">
+                </td>
+                <tr>
+                    <th class="r" nowrap>短信内容：</th><td class="l"><textarea name="intro" id="intro"  style="width:300px; height:60px"></textarea></td>
+                </td>
+                </tr>
+                <tr>
+                    <th class="r" nowrap><td class="l">预计发送人数：50000人</td></th>
+                </tr>
+                <tr><th></th><td><button type="submit" class="add_btn">确定</button><button class="btn2 left20" type="button" onClick="parent.layer.closeAll()">取消</button></td></tr>
+                </tbody>
+            </table>
+            <input type="hidden" id="PARENT_RELOAD" value="1">
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>添加标签名</title>
+    <link rel="stylesheet" href="../Public/organ2/css/common.css" />
+    <link rel="stylesheet" href="../Public/js/jquery.datetimepicker.css" />
+    <script type="text/javascript" src="../Public/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="../Public/js/sha1.js"></script>
+    <script type="text/javascript" src="../Public/js/icheck.min.js"></script>
+    <script type="text/javascript" src="../Public/js/layer/layer.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.datetimepicker.js"></script>
+    <script type="text/javascript" src="../Public/js/jQselect.js"></script>
+    <script type="text/javascript" src="../Public/organ2/js/common.js"></script>
+    <script type="text/javascript" src="/index/js"></script>
+
+    <script language="javascript">$(function(){parent.$('iframe,.layui-layer-iframe').css('height',$('.admin_box').height()+25+'px');})</script>
+</head>
+<body style="background: #fff">
+<div class="admin_box" style="padding-top:10px;">
+    <div class="table2">
+        <form onSubmit="return ttgValidata(this)" action="/admin/addsave" method="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                    <th class="r" nowrap>标签名：</th>
+                    <td class="l"><input placeholder="请输入标签名" id="" value="" name="keyword" type="text" class="txt" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="r" nowrap>标签描述：</th><td class="l checkbox">
+                    <input placeholder="请输入标签描述" value="" id="" name="keyword" type="text" class="txt" />
+                </td>
+                <tr>
+                    <th class="r" nowrap>标签条件：</th>
+                    <td class="l">
+                        <span class="select"><select id="" name="pmt_id">
+                            <option value="">请选择</option>
+                            <option value="1" >上个月的日均收单金额（扣除退款后）</option>
+                            <option value="2" >上月交易手续费收益总金额贡献（扣除银行成本后）</option>
+                            <option value="3" >上个月商户日均存款余额</option>
+                            <option value="4" >上个月商户月末贷款待还本金</option>
+                            <option value="5" >上个月商户月末逾期未还金额</option>
+                            <option value="6" >历史价值</option>
+                            <option value="7" >商户辐射度（门店数量）</option>
+                            <option value="8" >上个月商户日均消费交易笔数</option>
+                            <option value="9" >付款客户数量（不同客户）</option>
+                            <option value="10" >商户类型（企事业/小微/个体/自主进件）</option>
+                            </select>
+                        </span>
+                        <span class="select"><select id="" name="pmt_id">
+                            <option value="">请选择</option>
+                            <option value="1" >介于</option>
+                            <option value="2" >不介于</option>
+                            <option value="3" >等于</option>
+                            <option value="4" >不等于</option>
+                            <option value="5" >大于</option>
+                            <option value="5" >小于</option>
+                            <option value="5" >大于或等于</option>
+                            <option value="5" >小于或等于</option>
+                            </select>
+                        </span>
+                        <span>
+                            <input placeholder="" value="" id="" name="keyword" type="text" class="txt" /> —
+                            <input placeholder="" value="" id="" name="keyword" type="text" class="txt" />
+
+                        </span>
+                        <span><button class="add_btn left20" style="float: none; display: inline-block;" type="button">＋</button></span>
+                    </td>
+                </tr>
+                <tr><th></th><td><button type="submit" class="add_btn">保存</button><button class="btn2 left20" type="button" onClick="parent.layer.closeAll()">取消</button></td></tr>
+                </tbody>
+            </table>
+            <input type="hidden" id="PARENT_RELOAD" value="1">
+        </form>
+    </div>
+</div>
+</body>
+</html>

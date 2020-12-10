@@ -1,0 +1,404 @@
+/*tab相关*/
+.top{
+	border-bottom: 1px #1f3041 solid;
+}
+.main_box .swiper{
+	position: relative;
+	width: 100%;
+	height: 36px;
+	padding: 4px 20px 0;
+	margin-left: -20px;
+}
+.main_box .hd {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 32px;
+	padding-left: 20px;
+	font-size: 15px;
+	color: #1D9ED7;
+	background: #1f3041;
+	border-bottom: 1px #ccc solid;
+}
+
+.main_box .hd a {
+	color: #3e5165
+}
+
+.main_box .hd li {
+	position: relative;
+	float: left;
+	/*	margin-right: 15px;*/
+	width: 236px;
+	height: 36px;
+	margin-left: -15px;
+	background: url(../images/tab_bg.png) no-repeat center top;
+	background-size: cover;
+	text-align: center;
+	line-height: 36px;
+	cursor: pointer;
+}
+
+.main_box .hd li span {
+	margin: 0 auto;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.main_box .hd .active {
+	background: url(../images/tab_cur.png) no-repeat center top;
+	z-index: 100;
+	
+}
+
+.main_box .hd .closeTab {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	width: 9px;
+	height: 9px;
+	margin-top: -4px;
+	background: url(../images/sel_close.png) no-repeat bottom center;
+	text-indent: -9999px;
+}
+
+.main_box .tabbox {
+	margin-top: 10px;
+}
+/*其他修改*/
+/*列设置-table头部菜单*/
+
+.admin_box .search_box{
+	position: relative;
+	padding: 15px 15px 0;
+	margin: 10px 0;
+	border:1px #999 solid;
+	background: #fff;
+}
+.admin_box .search_box ul{
+	margin-bottom:0;
+}
+.admin_box .search_box .box_left{
+	padding-right: 180px;
+}
+.admin_box .search_box .box_left .secul{
+	display: none;
+}
+.admin_box .search_box .box_right{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 180px;
+	padding-top: 17px;
+}
+.admin_box .search_box .box_right button{
+	height:25px;  
+	padding:0px 10px;
+	margin-left: 15px; 
+	color:#FFFFFF; 
+	line-height:25px;
+	background:#f35e0b; 
+	cursor:pointer;
+}
+.admin_box .search_box .box_right .packarrow{
+	display: none;
+	position: absolute;
+	right: 30px;
+	top:0;
+	height: 30px;
+	text-indent: 30px;
+	line-height: 30px;
+	background: url(../images/doublearr.png) no-repeat left center;
+	background-size: 25px 25px;
+}
+.admin_box .search_box .box_right .resetbtn{
+	height: 25px;
+	padding: 0 7px;
+	margin-left: 15px;
+	border: 1px #333 solid;
+	background: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+/*搜索展开*/
+.admin_box .search_open .secul{
+	display: block !important;
+}
+.admin_box .search_open .box_right{
+	padding-top: 40px;
+}
+.admin_box .search_open .adv_ser{
+	display: none;
+}
+.admin_box .search_open .resetbtn,.admin_box .search_open .packarrow{
+	display: inline-block !important;
+}
+.admin_box .table{
+	padding: 15px;
+	border: 1px #ccc solid;
+	background: #fff;
+}
+.admin_box .table .table_head{
+	height: 50px;
+}
+
+.admin_box .table .leftset{
+	float: left;
+	height: 35px;
+	text-indent: 30px;
+	line-height: 35px;
+	background: url(../images/gear.png) no-repeat left center;
+	background-size: 25px 25px;
+	cursor: pointer;
+}
+
+.admin_box .table_head .rightbth button{
+	height: 25px;
+	padding: 0 7px;
+	margin-left: 5px;
+	border: 1px #333 solid;
+	background: none;
+	border-radius: 4px;
+}
+.admin_box .table_head .rightbth .add{
+	background: #f35e0b;
+	border: 1px #f35e0b solid;
+	color: #fff;
+}
+/*列设置的弹出窗*/
+.pop_set{
+	position:fixed;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+.pop_set .set_box{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width: 410px;
+	min-height: 200px;
+	margin: -100px 0 0 -205px;
+	background: #fff;
+	border: 1px #000000 solid;
+}
+.pop_set .set_box .set_head{
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px #000000 solid;
+}
+.pop_set .closeset{
+	position: absolute;
+	right: 20px;
+	top:13px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/closeS.png) no-repeat;
+}
+.pop_set .setlist{
+	width: 320px;
+	margin: 10px auto 0;
+}
+.pop_set .setlist li{
+	float: left;
+	width: 50%;
+	margin-bottom: 5px;
+	color: #333;
+	line-height: 25px;
+}
+.pop_set .setlist input[type='checkbox']{
+	float:left;
+	margin:7px 5px 0 0;
+	
+}
+.pop_set .sure{
+	display: block;
+	width: 70px;
+	height: 30px;
+	background: #F67013;
+	margin: 20px auto;
+	color: #fff;
+}
+/*快速进件*/
+.radiobox li{
+	float: left;
+	width: 80px;
+	height: 30px;
+	border: 1px #ccc solid;
+	margin-right: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+.radiobox li input{
+	display: none;
+}
+.radiobox .active{
+	color: #fff;
+	background: #0099CC;
+	border-color:#0099CC ;
+}
+/*
+结算账户信息
+*/
+.getbanknumber{
+	height: 30px;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px #ccc solid;
+    margin-left: 8px;
+}
+.relation-info{
+	display: none;
+}
+
+/*开通支付合同*/
+.payser{
+	padding-left: 50px;
+}
+.payser .payhead dt,.payser .payhead dd{
+	float: left;
+	color: #000000;
+	font-size: 15px;
+	margin-right: 10px
+}
+.payser .payhead dt i,.payser .paytype i{
+	color: red;
+}
+.payser .paytype{
+	width: 800px;
+	margin-top:20px;
+	border: 1px #333 solid;
+}
+.payser .paytype .title{
+	padding-left: 30px;
+	line-height: 30px;
+	color: #333;
+	font-size: 18px;
+	border-bottom: 1px #333 solid;
+}
+.payser td{
+	height: 50px;
+}
+.payser th{
+	width: 120px;
+}
+.payser td input{
+	width: 250px;
+}
+.payser td .selectbox{
+	width: 110px;
+}
+.payser td button{
+	height:30px;
+	padding: 0 8px;
+	background: #fff;
+	border: 1px #ccc solid;
+	margin-left: 8px;
+}
+.otherfile th{
+	text-align: right;
+	padding:10px 0;
+}
+.otherfile .upload_btn{
+	display: inline-block;
+	position: relative;
+	height: 30px;
+	padding: 0 4px;
+	background: #666;
+	color: #fff;
+	margin-right: 3px;
+}
+.otherfile .upload_btn input{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	opacity: 0;
+	filter: alpha(opacity:0);
+}
+.otherfile .preview{
+	width: 600px;
+	margin-top: 40px;
+}
+.otherfile .preview li{
+	position: relative;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.otherfile .preview .close{
+	position: absolute;
+	top:-10px;
+	right: -10px;
+	width: 20px;
+	height: 20px;
+}
+.otherfile .preview .close img{
+	width: 100%;
+	height: 100%;
+}
+/*反洗钱弹窗*/
+.antipop{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+	z-index: 100;
+	background: rgba(0,0,0,.6);
+}
+.antipop .anti{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 860px;
+	height: 600px;
+	margin: -300px 0 0 -430px;
+	background: #fff;
+	overflow-x:auto ;
+	border: 1px #e0e0e0 solid;
+}
+.antipop .anti .close{
+	position: absolute;
+	top:10px;
+	right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/closeS.png) no-repeat;
+	cursor: pointer;
+}
+.antipop .anti .head{
+	padding: 10px 0;
+	text-align: center;
+	color: #333;
+	font-size: 23px;
+	border-bottom: 1px #e0e0e0  solid;
+}
+.antipop .anti .title{
+	width: auto;
+	margin: 0 15px;
+	padding: 10px 0;
+}
+.antipop .anti .table2{
+	margin-top:30px;
+}
+.antipop .anti .table2 th{
+	width: 140px;
+}
+.antipop .anti .table2 td{
+	width: 250px;
+	padding-right: 0;
+}
+.antipop .anti .table2 .w1{
+	width: 200px;
+}
+.antipop .anti .select2 input{
+	width: 43px;
+	background-position-x: 55px;
+}

@@ -1,0 +1,27 @@
+*,body,th,td,a,input,div,h2,h3,h1,p,span,em,.logo,.size_18,.size_16,.size_14{font-size:12px;}
+.login_main,.login_logo,.login_bg{min-width:100%;}
+.login_main .l{display:none;}
+.login_main .r{width:500px;margin:0 auto;text-align:center;}
+.table table th,.table table td{padding:3px 0px 3px 0px;}
+.top{height:50px;line-height: 50px;}
+.logo{position:absolute;top:0px;left:5px;text-align:left;    padding-left: 15px;}
+.top .right{ line-height:14px; padding:4px 5px 0px 0px;text-align:right}
+.login_info{margin-right:5%;}
+.menu h3{ height:30px; line-height:30px; background:#3e5165; text-indent:20px; font-size:12px; font-weight:normal; border-bottom:1px #505f6f solid; position:relative; cursor: pointer}
+.menu h3 b{ background:url(../images/ico_script.png) 0px -312px no-repeat; position: absolute; top:2px; right:16px; display:block; width:22px; height:22px;}
+.menu a{ font-size:12px; }
+.ht_a b{ background:url(../images/ico_script.png) 0px -312px no-repeat; position: absolute; top:10px; right:16px; display:block; width:22px; height:22px;}
+.ht_a{ position:relative;}
+.menu ul{padding:5px 0;} 
+.menu li{line-height:25px; float:left; width:210px;}
+.main_box .hd {height: 30px;line-height: 30px;font-size: 12px;color: #3e5165;text-indent: 20px;}
+.main_box {padding: 0px 10px 10px 10px;}
+.search_box input.txt{width:50px;}
+span.select input{ width:40px; background:url(../images/ico_script.png) 50px -436px no-repeat; cursor:default;box-shadow:1px 1px 2px 0px rgba(204,204,204,0.4)  inset;}
+.selectbox-wrapper {width:75px; background-color:#fff; text-align:left; line-height:33px; z-index:2;max-height:184px;overflow:auto}
+span.select2 input{width:40px; background:url(../images/ico_script.png) 50px -436px no-repeat; }
+span.select2 .selectbox-wrapper{ width:75px;}
+
+
+
+.add_btn{font-size:12px;height:22px;line-height:22px;padding: 0px 10px;}

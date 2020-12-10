@@ -1,0 +1,490 @@
+	.hide{
+		display: none;
+	}
+	/*投放流程*/
+	.flow_path li {
+		float: left;
+		line-height: 17px;
+	}
+	
+	.flow_path span {
+		float: left;
+		width: 15px;
+		height: 15px;
+		margin-right: 10px;
+		border-radius: 50%;
+		border: 1px #333 solid;
+	}
+	
+	.flow_path .active {
+		background: #0F9AD2;
+		border-color: #0F9AD2;
+	}
+	
+	.flow_path .line {
+		width: 70px;
+		height: 7px;
+		margin: 0 10px;
+		border-bottom: 1px #333 solid;
+	}
+	
+	.flow_path .linecur {
+		border-color: #0F9AD2;
+	}
+	/*上传图片--0523*/
+	
+	.uploadimg {
+		padding-bottom: 100px;
+	}
+	
+	.uploadimg .pic_box {
+		float: left;
+		position: relative;
+		width: 170px;
+		height: 108px;
+		margin:10px 0 0 15px;
+		background: url(../images/addimg_btn.jpg) no-repeat;
+	}
+	.uploadimg .pic_box .btn{
+		width:300px;
+		position: absolute;
+		left:0px;
+		top:122px;
+	}
+	.uploadimg .pic_box .btn input{
+		width:161px;
+	}
+	.uploadimg .pic_box .btn span{
+		margin-right: 10px;
+	}
+	.uploadimg .pic_box .closeImg{
+		display: none;
+		position: absolute;
+		right: -10px;
+		top:-10px;
+		width:24px;
+		height:24px;
+		cursor: pointer;
+		z-index: 1000;
+	}
+	.uploadimg .pic_box .img_mod{
+		height:100%;
+	}
+	.uploadimg .ui-upload-holder {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 0;
+		background: none;
+	}
+	
+	.uploadimg .ui-upload-input {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.uploadimg .pic_box>span {
+		display: block;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		line-height: 0;
+		text-align: center;
+	}
+	
+	.uploadimg .pic_box span i {
+		color: #ff0000;
+	}
+	
+	.uploadimg .newupload {
+		padding: 0 0 48px 82px;
+	}
+	
+	.uploadimg .newupload li {
+		float: left;
+		margin: 0 180px 0 52px;
+	}
+	
+
+
+	
+	.uploadimg .newupload .note:hover .hint {
+		display: block;
+	}
+	/*单选框*/
+	.radiobox li {
+		float: left;
+		width: 89px;
+		height: 30px;
+		border: 1px #ccc solid;
+		margin-right: 20px;
+		text-align: center;
+		line-height: 30px;
+	}
+	
+	.radiobox li input {
+		display: none;
+	}
+	
+	.radiobox .active {
+		color: #fff;
+		background: #f35e0b;
+		border-color: #f35e0b;
+	}
+	/*选择行业范围*/
+	.throw {
+		display: none;
+		width: 600px;
+		height: 560px;
+		background: #fff;
+	}
+
+	
+	.throw .left {
+		width: 299px;
+		border-right: 1px #ccc solid;
+	}
+	.trade .left{
+		width: 599px;
+	}
+	.throw .throwbox .txt {
+		width: 137px;
+	}
+	.trade .throwbox .txt{
+		width: 570px !important;
+	}
+	.throw .throwbox .chooseinput {
+		padding: 10px;
+	}
+	
+	.throw .throwbox .rangelist {
+		padding-top: 10px;
+		height: 240px;
+		overflow-y: auto;
+	}
+	
+	.throw .throwbox .rangelist li {
+		padding: 5px 10px;
+		line-height: 22px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	.throw .chooseBox .rangelist .name{
+		display: inline-block;
+		width: 230px;
+	}
+	.throw .throwbox .rangelist .plus {
+		float: right;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: solid 1px #333;
+		text-align: center;
+		font-size: 20px;
+		line-height: 18px;
+		cursor: pointer;
+	}
+	.throw .throwbox .rangelist .plus:hover{
+		background: #a2c4ef;
+	}
+	.throw .throwbox .rangelist .forx {
+		width: 15px;
+		height: 15px;
+		border: none;
+	}
+	
+	.throw .throwbox .rangelist .forx img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.throw .title {
+		height: 42px;
+		padding: 0 20px 0 20px;
+		font-size: 14px;
+		color: #fff;
+		line-height: 42px;
+		background: #4476A7;
+	}
+	
+	.throw .btnbox button {
+		float: right;
+	}
+	
+	.throw .txt{
+		width: 268px !important;
+	}
+	
+	.rangetext {
+		float: left;
+		height:30px;
+		width:105px;
+		margin-right:20px;
+		text-align: center;
+		line-height:30px;
+		font-size: 15px;
+		background: #CCCCCC;
+	}
+	.threw .rangelist{
+		padding: 15px 10px !important;
+		height: 110px !important;
+	}
+	.threw .rangelist li{
+		position: relative;
+		float: left;
+		margin:0 5px 10px 5px;
+		padding: 0 10px !important;
+		height: 24px;
+		background: #f35e0b;
+		font-size: 13px !important;
+		color: #fff;
+		text-align: center;
+	}
+	.threw li span{
+		line-height: 24px;
+	}
+	.threw .forx{
+		position: absolute;
+		top:-7px;
+		right: -7px;
+	}
+	.terrace .left .rangelist{
+		height: 290px;
+	}
+	/*广告预览图片*/
+	.mini_pic {
+		position: relative;
+		width: 40%;
+	}
+	
+	.mini_pic:after {
+		content: '';
+		height: 400px;
+		position: absolute;
+		left: -25%;
+		top: 60px;
+		border-left: 1px #ccc solid;
+	}
+	
+	.mini_pic h3 {
+		font-size: 20px;
+		border-bottom: none;
+	}
+	
+	.mini_pic iframe {
+		height: 760px;
+		width: 430px;
+		border: none;
+	}
+	/*预览状态*/
+	.linedata ul{
+		font-size: 16px;
+		padding-bottom: 10px;
+	}
+	.linedata p {
+		padding-bottom: 20px;
+		font-size: 24px;
+	}
+	
+	.linedata li {
+		float: left;
+		margin-right: 50px;
+	}
+	
+	.linedata span {
+		margin-left: 15px;
+	}
+	
+	.linedata a {
+		color: deepskyblue;
+	}
+	
+	.nopass .nored {
+		padding-bottom: 10px;
+		color: red;
+		font-size: 20px;
+	}
+	.addpic img{
+		width: 300px;
+		height: 150px;
+	}
+	.adTab{
+		width: 50%;
+		margin-bottom: 10px;
+		border-bottom: 1px #ccc solid;
+	}
+	.adTab li{
+		float: left;
+		margin-right: 30px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	.adTab .active{
+		padding-bottom: 10px;
+		color: #0F9AD2;
+		border-bottom: 3px #0F9AD2 solid;
+	}
+	.table2 td,.table2 th{
+		padding: 7px;
+	}
+	.editBtn{
+		position: absolute;
+		top:645px;
+		left: 50%;
+		margin-left: -170px;
+	}
+	/*广告审核*/
+	.nopassPop .select{
+		width: 300px;
+	}
+	.nopassPop textarea{
+		width: 300px;
+		height: 70px;
+	}
+	/*广告分析*/
+	.count .tab{
+	}
+	.count .tab li{
+		float: left;
+		margin:0 0 30px 0;
+	}
+	.count .tab button{
+		margin-top:10px;
+	}
+	.count .tab .active{
+		height:40px;
+		margin:0;
+		padding: 0 25px;
+		font-size: 16px;
+		background:#ff9900;
+
+	}
+	.count .changeTime{
+		float: right !important;
+		margin-left: 20px;
+	}
+	.popLay {
+		display: none;
+		padding: 30px 40px;
+	}
+
+	.popLay .in_box {
+		padding-bottom: 15px;
+	}
+
+	.popLay .in_box span {
+		float: left;
+		width: 100px;
+		font-size: 15px;
+	}
+
+	.popLay .in_box textarea {
+		width: 290px;
+		height: 50px;
+		padding: 5px;
+	}
+
+	.popLay .btn button {
+		float: right;
+	}
+
+	.count .layui-layer-shade {
+		z-index: 999 !important;
+	}
+
+	.count .layui-layer {
+		z-index: 1999 !important;
+	}
+	.count .layui-layer-page .layui-layer-content{
+		overflow: visible !important;
+	}
+	.echarts .chartBox{
+		float: left;
+		
+	}
+	.echarts .chartBox.right{
+		float: right !important;
+	}
+	.echarts .chartBox .title{
+		padding: 5px;
+		text-align: center;
+		background: #ccc;
+	}
+	#chant1,#chant2{
+		height: 500px;
+	}
+	.serachBox{
+		padding-bottom: 20px;
+	}
+	.dateTab span{
+		position: relative;
+		z-index: 1000;
+		padding: 0 10px;
+	}
+	.tabbtn{
+		padding: 10px 15px;
+		border: 1px #333 solid;
+		text-align: right;
+	}
+	.tabbtn button{
+	    display: inline-block;
+	    height: 29px;
+	    line-height: 29px;
+	    width: 81px;
+	    background: #999999;
+	    color: #FFFFFF;
+	    text-align: center;
+	    margin-right: 14px;
+	}
+	.tabbtn .hover{
+		background: #FF9900;
+	}
+	.conbox .linedata ul{
+		padding-bottom: 10px;
+	}
+	.conbox .title{
+		padding: 10px 0;
+		margin-top: 30px;
+		background: #ccc;
+	}
+	.conbox .chartCon{
+		margin-top: 30px;
+		height: 400px;
+	}
+	.conbox .perbox{
+		float: left;
+		width: 50%;
+		min-width: 450px;
+	}
+	.conbox .perbox .title{
+		width: 80%;
+	}
+	/*日报表详情*/
+	.reportdetail .linedata ul{
+		font-size: 18px;
+	}
+	.reportdetail .linedata {
+		line-height: 30px;
+	}
+	.linedata_bottom{
+		padding-top: 10px;
+		border-top: 1px #555 dashed;
+	}
+	.swiper-button-next, .swiper-button-prev{
+		width:12px;
+		height:22px;
+		margin-top:-11px;
+		background-size:12px 22px ;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+		bottom:0;
+	}
+	.adlink span{
+		display: inline-block;
+		width: 32%;
+		word-break:break-all;
+		line-height:19px;
+	}
